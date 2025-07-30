@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="text-center">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white rounded mb-5">
+        <div class="container py-5">
+            <h1 class="display-4">
+                <i class="fas fa-chart-line me-3"></i>
+                SmartPulse EPİAŞ Transaction Analysis
+            </h1>
+            <p class="lead">Enerji piyasası işlemlerini analiz edin ve raporlayın</p>
+            <hr class="my-4 bg-white">
+            <p class="mb-4">EPİAŞ şeffaflık platformundan çekilen veriler ile kapsamlı işlem analizi yapın.</p>
+            <a class="btn btn-light btn-lg" asp-controller="Auth" asp-action="Login" role="button">
+                <i class="fas fa-sign-in-alt me-2"></i>Başlayın
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-primary">
+                <div class="card-body text-center">
+                    <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Güvenli Bağlantı</h5>
+                    <p class="card-text">EPİAŞ TGT token sistemi ile güvenli veri erişimi</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-success">
+                <div class="card-body text-center">
+                    <i class="fas fa-chart-bar fa-3x text-success mb-3"></i>
+                    <h5 class="card-title">Detaylı Analiz</h5>
+                    <p class="card-text">Kontrat bazında toplam tutarlar ve ağırlıklı ortalama fiyatlar</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-info">
+                <div class="card-body text-center">
+                    <i class="fas fa-download fa-3x text-info mb-3"></i>
+                    <h5 class="card-title">Export İmkanı</h5>
+                    <p class="card-text">Analiz sonuçlarını Excel formatında indirin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
